@@ -1,0 +1,32 @@
+{
+  "name": "top-bar.css",
+  "description": "A top bar navigation pattern.",
+  "version": "1.0.0",
+  "author": "Nate Goldman <nate@ngoldman.me>",
+  "bugs": {
+    "url": "https://github.com/ngoldman/top-bar.css/issues"
+  },
+  "devDependencies": {
+    "clean-css": "^3.0.7",
+    "node-sass": "^2.0.0-beta"
+  },
+  "files": [
+    "top-bar.css",
+    "source/top-bar.scss"
+  ],
+  "homepage": "https://github.com/ngoldman/top-bar.css",
+  "keywords": [
+    "style",
+    "css",
+    "scss"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngoldman/top-bar.css.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
