@@ -17,11 +17,12 @@
   ],
   "homepage": "https://github.com/ngoldman/top-bar.css",
   "keywords": [
-    "style",
     "css",
-    "scss"
+    "scss",
+    "style"
   ],
   "license": "ISC",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ngoldman/top-bar.css.git"
@@ -30,6 +31,5 @@
     "build": "node scripts/build.js",
     "test": "standard"
   },
-  "main": "index.js",
   "style": "top-bar.css"
 }
