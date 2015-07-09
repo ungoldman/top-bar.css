@@ -30,5 +30,6 @@
     "build": "node scripts/build.js",
     "test": "standard"
   },
+  "main": "index.js",
   "style": "top-bar.css"
 }
