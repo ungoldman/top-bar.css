@@ -7,8 +7,8 @@
     "url": "https://github.com/ngoldman/top-bar.css/issues"
   },
   "devDependencies": {
-    "clean-css": "^3.0.7",
-    "node-sass": "^2.0.0-beta"
+    "clean-css": "3.3.5",
+    "node-sass": "3.2.0"
   },
   "files": [
     "top-bar.css",
