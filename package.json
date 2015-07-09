@@ -8,7 +8,8 @@
   },
   "devDependencies": {
     "clean-css": "3.3.5",
-    "node-sass": "3.2.0"
+    "node-sass": "3.2.0",
+    "standard": "*"
   },
   "files": [
     "top-bar.css",
@@ -27,6 +28,6 @@
   },
   "scripts": {
     "build": "node scripts/build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   }
 }
