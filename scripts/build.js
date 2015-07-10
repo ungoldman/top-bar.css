@@ -6,14 +6,19 @@ var CleanCSS = require('clean-css')
 var pkg = require('../package.json')
 
 sass.render({
-  file: '../source/top-bar.scss',
-  success: buildCSS
-})
+  file: '../source/top-bar.scss'
+}, buildCSS)
 
-function buildCSS (result) {
+function buildCSS (err, result) {
+  if (err) {
+    console.error(err)
+    process.exit(1)
+  }
+
   var style = new CleanCSS().minify(result.css).styles
   var banner = '/* ' + pkg.name + ' v' + pkg.version + ' - ' +
     getDate() + ' - ' + pkg.homepage + ' */\n'
+
   fs.writeFile('../top-bar.css', banner + style, function (err) {
     if (err) throw err
     console.log('built top-bar.css')
