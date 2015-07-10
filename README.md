@@ -1,5 +1,7 @@
 # top-bar.css
 
+> A top bar navigation pattern.
+
 [![npm][npm-image]][npm-url]
 [![travis][travis-image]][travis-url]
 
@@ -8,15 +10,13 @@
 [travis-image]: https://img.shields.io/travis/ngoldman/top-bar.css.svg?style=flat-square
 [travis-url]: https://travis-ci.org/ngoldman/top-bar.css
 
-A top bar navigation pattern.
-
-## Usage
+# Install
 
 ```
 npm install top-bar.css
 ```
 
-*..do whatever you're into, then..*
+## Usage
 
 ```html
 <!DOCTYPE html>
@@ -43,6 +43,8 @@ npm install top-bar.css
 ```
 
 Everything is scoped to `.top-bar`.
+
+Compatible with [css-via-npm](https://github.com/sethvincent/css-via-npm) workflows.
 
 ### Sass
 
