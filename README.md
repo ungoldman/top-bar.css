@@ -21,25 +21,25 @@ npm install top-bar.css
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-...
-<link rel="stylesheet" href="path/to/top-bar.css">
-...
-</head>
-<body>
-...
-<nav class="top-bar">
-  <a href="#" class="top-bar-title">site title</a>
-  <a href="#" class="top-bar-link">some nav link</a>
-  <a href="#" class="top-bar-link">another one</a>
-  <a href="#" class="top-bar-link current-page">current page</a>
+  <head>
+    ...
+    <link rel="stylesheet" href="path/to/top-bar.css">
+    ...
+  </head>
+  <body>
+    ...
+    <nav class="top-bar">
+      <a href="#" class="top-bar-title">site title</a>
+      <a href="#" class="top-bar-link">some nav link</a>
+      <a href="#" class="top-bar-link">another one</a>
+      <a href="#" class="top-bar-link current-page">current page</a>
 
-  <div class="top-bar-right">
-    <a href="#" class="top-bar-link">this one's on the right</a>
-  </div>
-</nav>
-...
-</body>
+      <div class="top-bar-right">
+        <a href="#" class="top-bar-link">this one's on the right</a>
+      </div>
+    </nav>
+    ...
+  </body>
 </html>
 ```
 
