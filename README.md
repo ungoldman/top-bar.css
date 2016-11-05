@@ -1,6 +1,6 @@
 # top-bar.css
 
-> A top bar navigation pattern.
+A top bar navigation pattern.
 
 [![npm][npm-image]][npm-url]
 [![travis][travis-image]][travis-url]
@@ -32,6 +32,7 @@ npm install top-bar.css
   <a href="#" class="top-bar-title">site title</a>
   <a href="#" class="top-bar-link">some nav link</a>
   <a href="#" class="top-bar-link">another one</a>
+  <a href="#" class="top-bar-link current-page">current page</a>
 
   <div class="top-bar-right">
     <a href="#" class="top-bar-link">this one's on the right</a>
@@ -56,7 +57,7 @@ You can also use this as a [Sass](http://sass-lang.com/) library.
 
 You can set the font family like so:
 
-```
+```scss
 $top-bar-family: 'Comic Sans';
 @import '../node_modules/top-bar.css/source/top-bar';
 ```
