@@ -2,20 +2,20 @@
   "name": "top-bar.css",
   "description": "A top bar navigation pattern.",
   "version": "1.1.0",
-  "author": "Nate Goldman <nate@ngoldman.me>",
+  "author": "Nate Goldman <ungoldman@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ngoldman/top-bar.css/issues"
+    "url": "https://github.com/ungoldman/top-bar.css/issues"
   },
   "devDependencies": {
     "clean-css": "3.3.5",
     "node-sass": "3.2.0",
-    "standard": "*"
+    "standard": "^8.5.0"
   },
   "files": [
     "top-bar.css",
     "source/top-bar.scss"
   ],
-  "homepage": "https://github.com/ngoldman/top-bar.css",
+  "homepage": "https://github.com/ungoldman/top-bar.css",
   "keywords": [
     "css",
     "scss",
@@ -25,7 +25,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngoldman/top-bar.css.git"
+    "url": "https://github.com/ungoldman/top-bar.css.git"
   },
   "scripts": {
     "build": "node scripts/build.js",
