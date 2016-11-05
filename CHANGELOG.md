@@ -1,8 +1,10 @@
 # top-bar.css changelog
 
-## Unreleased
-* add title to license
-* add .top-bar-link.current-page color
+## 1.2.0
+* docs: add title to license
+* src: add .top-bar-link.current-page color
+* docs: fix misc links
+* deps: node-sass@^3.11.2
 
 ## 1.1.0
 * add `style` field for [css via npm](https://github.com/sethvincent/css-via-npm/) use cases
