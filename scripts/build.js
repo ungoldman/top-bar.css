@@ -17,7 +17,7 @@ function buildCSS (err, result) {
 
   var style = new CleanCSS().minify(result.css).styles
   var banner = '/* ' + pkg.name + ' v' + pkg.version + ' - ' +
-    getDate() + ' - ' + pkg.homepage + ' */\n'
+    pkg.license + ' License - ' + pkg.homepage + ' */\n'
 
   fs.writeFile('../top-bar.css', banner + style, function (err) {
     if (err) throw err
