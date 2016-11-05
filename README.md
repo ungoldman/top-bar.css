@@ -7,8 +7,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/top-bar.css.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/top-bar.css
-[travis-image]: https://img.shields.io/travis/ngoldman/top-bar.css.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ngoldman/top-bar.css
+[travis-image]: https://img.shields.io/travis/ungoldman/top-bar.css.svg?style=flat-square
+[travis-url]: https://travis-ci.org/ungoldman/top-bar.css
 
 # Install
 
