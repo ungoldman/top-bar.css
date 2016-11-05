@@ -1,5 +1,8 @@
 # top-bar.css changelog
 
+## Unreleased
+* add title to license
+
 ## 1.1.0
 * add `style` field for [css via npm](https://github.com/sethvincent/css-via-npm/) use cases
 * add `main` field and blank index.js for [parcelify](https://github.com/rotundasoftware/parcelify/issues/28)
