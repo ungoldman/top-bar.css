@@ -38,7 +38,9 @@ $top-bar-family:  'Helvetica Neue',
     font-weight: 200;
     margin-left: 1rem;
 
-    &:hover {
+    &:hover,
+    &.current-page,
+    &.current-page:hover {
       color: #555;
     }
   }

@@ -2,6 +2,7 @@
 
 ## Unreleased
 * add title to license
+* add .top-bar-link.current-page color
 
 ## 1.1.0
 * add `style` field for [css via npm](https://github.com/sethvincent/css-via-npm/) use cases
