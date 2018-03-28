@@ -24,15 +24,3 @@ function buildCSS (err, result) {
     console.log('built top-bar.css')
   })
 }
-
-function getDate () {
-  var d = new Date()
-  var dd = d.getDate()
-  var mm = d.getMonth() + 1
-  var yyyy = d.getFullYear()
-
-  if (dd < 10) dd = '0' + dd
-  if (mm < 10) mm = '0' + mm
-
-  return mm + '/' + dd + '/' + ('' + yyyy).substr(2)
-}
