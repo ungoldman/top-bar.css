@@ -4,18 +4,21 @@
   "version": "1.2.0",
   "author": "Nate Goldman <ungoldman@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ungoldman/top-bar.css/issues"
+    "url": "https://github.com/css-pkg/top-bar.css/issues"
   },
   "devDependencies": {
-    "clean-css": "3.3.5",
-    "node-sass": "^3.11.2",
-    "standard": "^8.5.0"
+    "clean-css": "^4.1.11",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.8.3",
+    "npm-run-all": "^4.1.2",
+    "standard": "^11.0.1"
   },
   "files": [
     "top-bar.css",
+    "top-bar.css.map",
     "source/top-bar.scss"
   ],
-  "homepage": "https://github.com/ungoldman/top-bar.css",
+  "homepage": "https://github.com/css-pkg/top-bar.css",
   "keywords": [
     "css",
     "scss",
@@ -25,10 +28,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ungoldman/top-bar.css.git"
+    "url": "https://github.com/css-pkg/top-bar.css.git"
   },
   "scripts": {
-    "build": "node scripts/build.js",
+    "build": "node-sass source/top-bar.scss top-bar.css --output-style=compressed --source-map=true",
+    "postbuild": "./scripts/build.js",
+    "watch": "npm run build -- -w",
+    "dev": "run-p watch serve",
+    "serve": "live-server",
     "test": "standard"
   },
   "style": "top-bar.css"
