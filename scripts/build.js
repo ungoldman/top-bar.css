@@ -1,26 +1,23 @@
-process.chdir(__dirname)
+#!/usr/bin/env node
 
 var fs = require('fs')
-var sass = require('node-sass')
+var path = require('path')
 var CleanCSS = require('clean-css')
 var pkg = require('../package.json')
 
-sass.render({
-  file: '../source/top-bar.scss'
-}, buildCSS)
+function buildCSS () {
+  var file = path.join(__dirname, '../top-bar.css')
+  var css = fs.readFileSync(file)
 
-function buildCSS (err, result) {
-  if (err) {
-    console.error(err)
-    process.exit(1)
-  }
-
-  var style = new CleanCSS().minify(result.css).styles
+  var style = new CleanCSS().minify(css).styles
   var banner = '/* ' + pkg.name + ' v' + pkg.version + ' - ' +
     pkg.license + ' License - ' + pkg.homepage + ' */\n'
 
-  fs.writeFile('../top-bar.css', banner + style, function (err) {
+  fs.writeFile(file, banner + style, function (err) {
     if (err) throw err
     console.log('built top-bar.css')
   })
 }
+
+if (module.parent) module.exports = buildCSS()
+else buildCSS()
