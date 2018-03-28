@@ -1,5 +1,20 @@
 # top-bar.css changelog
 
+## 2.0.0 - 2018-03-27
+
+### Features
+- add source map
+
+### Breaking Changes
+- switch main export to `top-bar.css`
+- remove random page parent selector
+- delete `index.js`
+
+### Chores
+- **pkg**: update deps, add lifecycle scripts
+- update build script
+- update license
+
 ## 1.2.0
 * docs: add title to license
 * src: add .top-bar-link.current-page color

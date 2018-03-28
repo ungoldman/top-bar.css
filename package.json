@@ -1,7 +1,7 @@
 {
   "name": "top-bar.css",
   "description": "A top bar navigation pattern.",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "author": "Nate Goldman <ungoldman@gmail.com>",
   "bugs": {
     "url": "https://github.com/css-pkg/top-bar.css/issues"
