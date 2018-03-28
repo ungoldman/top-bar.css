@@ -11,10 +11,6 @@ $top-bar-family:  'Helvetica Neue',
   overflow: auto;
   font-family: $top-bar-family;
 
-  .page & {
-    padding: 0;
-  }
-
   &-link,
   &-title {
     color: #aaa;
