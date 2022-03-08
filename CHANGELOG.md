@@ -1,5 +1,13 @@
 # top-bar.css changelog
 
+## 3.0.0 - 2022-03-08
+
+### Breaking Changes
+- updated to node-sass@7
+
+### Chores
+- **pkg**: update deps, rm live-server
+
 ## 2.0.0 - 2018-03-27
 
 ### Features
