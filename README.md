@@ -1,3 +1,5 @@
+<div class="hero" align="center">
+
 # top-bar.css
 
 A top bar navigation pattern.
@@ -11,6 +13,8 @@ A top bar navigation pattern.
 [3]: https://img.shields.io/travis/ungoldman/top-bar.css/gh-pages.svg
 [4]: https://travis-ci.org/ungoldman/top-bar.css
 [5]: https://img.shields.io/npm/dm/top-bar.css.svg
+
+</div>
 
 # Install
 
