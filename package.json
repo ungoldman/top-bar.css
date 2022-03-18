@@ -4,7 +4,7 @@
   "version": "3.0.0",
   "author": "Nate Goldman <ungoldman@gmail.com>",
   "bugs": {
-    "url": "https://github.com/css-pkg/top-bar.css/issues"
+    "url": "https://github.com/ungoldman/top-bar.css/issues"
   },
   "devDependencies": {
     "clean-css": "^5.2.4",
@@ -17,7 +17,7 @@
     "top-bar.css.map",
     "source/top-bar.scss"
   ],
-  "homepage": "https://github.com/css-pkg/top-bar.css",
+  "homepage": "https://github.com/ungoldman/top-bar.css",
   "keywords": [
     "css",
     "scss",
@@ -27,7 +27,7 @@
   "main": "top-bar.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/css-pkg/top-bar.css.git"
+    "url": "https://github.com/ungoldman/top-bar.css.git"
   },
   "scripts": {
     "build": "node-sass source/top-bar.scss top-bar.css --output-style=compressed --source-map=true",
